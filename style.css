@@ -1,0 +1,28 @@
+body{
+    background-color: #FFFFFF;
+    color: black;
+}
+h1{
+    animation: color_red 3s infinite;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    color: #5988FF;
+}
+iframe{
+    display: block;
+}
+@keyframes color_red {
+    0% {
+        color: blue;
+    }
+    50% {
+        color:rgb(20, 27, 20);
+    }
+    100% {
+        color: blue;
+    }
+} 
